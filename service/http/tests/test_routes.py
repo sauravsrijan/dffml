@@ -13,13 +13,7 @@ import aiohttp
 
 from dffml.repo import Repo
 from dffml.df.base import (
-    op,
-    BaseConfig,
-    BaseInputSetContext,
-    BaseOrchestratorContext,
-    OperationImplementationContext,
-)
-from dffml.df.types import Definition, Input, DataFlow, Stage
+    BaseConfig)
 from dffml.operation.output import GetSingle
 from dffml.util.entrypoint import EntrypointNotFound
 from dffml.model.model import ModelContext, Model

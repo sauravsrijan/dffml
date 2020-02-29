@@ -9,7 +9,6 @@ import pydoc
 import asyncio
 import traceback
 import concurrent.futures as futures
-import pkg_resources
 from contextlib import AsyncExitStack
 from functools import singledispatch, partial
 from typing import Optional, List, Dict, Type, AsyncIterator, Any, Callable
