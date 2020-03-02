@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2019 Intel Corporation
-import ast
 import sys
 import json
 import enum

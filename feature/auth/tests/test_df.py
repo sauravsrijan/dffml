@@ -3,10 +3,7 @@ import random
 from dffml.df.types import Operation, Input, DataFlow
 from dffml.df.base import BaseConfig, StringInputSetContext
 from dffml.df.memory import (
-    MemoryOrchestrator,
-    MemoryInputSet,
-    MemoryInputSetConfig,
-)
+    MemoryOrchestrator)
 
 from dffml.operation.output import GetSingle
 from dffml.util.asynctestcase import AsyncTestCase
